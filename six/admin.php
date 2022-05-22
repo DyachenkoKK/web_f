@@ -27,8 +27,8 @@ if(!$is_admin){
   exit();
 }
 function dbconnect(){
-  $user = 'u47597';
-  $pass = '4080021';
+  $user = 'u47592';
+  $pass = '8750191';
   $db = new PDO('mysql:host=localhost;dbname=u47597', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
   return $db;
 }
