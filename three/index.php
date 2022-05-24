@@ -38,8 +38,6 @@ $user = 'u47592';
 $pass = '8750191';
 $db = new PDO('mysql:host=localhost;dbname=u47592', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
 
-
-
 try {
   $stmt = $db->prepare("INSERT INTO project4 (name, email, birth, pol, konechnosti, biography, date) VALUES (:name, :email, :birth, :pol, :konechnosti, :biography, :date)");
   $stmt->bindParam(':name', $name);
