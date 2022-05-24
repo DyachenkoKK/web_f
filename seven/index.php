@@ -4,7 +4,7 @@
 function dbconnect(){
   $user = 'u47592';
   $pass = '8750191';
-  $db = new PDO('mysql:host=localhost;dbname=u47597', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+  $db = new PDO('mysql:host=localhost;dbname=u47592', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
   return $db;
 }
 
